@@ -201,6 +201,27 @@
                     "id": "plugin:keybind-cheatsheet"
                 },
                 {
+                    "iconColor": "none",
+                    "id": "WallpaperSelector"
+                },
+                {
+                    "defaultSettings": {
+                        "autoPaste": false,
+                        "autoPasteDelay": 300,
+                        "autoPasteOnRightClick": false,
+                        "cardColors": {
+                        },
+                        "customColors": {
+                        },
+                        "enableTodoIntegration": false,
+                        "fullscreenMode": false,
+                        "hidePanelBackground": false,
+                        "notecardsEnabled": true,
+                        "panelHeight": 0,
+                        "panelWidth": 1450,
+                        "pincardsEnabled": true,
+                        "showCloseButton": true
+                    },
                     "id": "plugin:clipper"
                 },
                 {
@@ -322,14 +343,14 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "fruit-salad",
+        "generationMethod": "dysfunctional",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "monitorForColors": "",
+        "monitorForColors": "DP-1",
         "predefinedScheme": "Cyberpunk",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -814,12 +835,26 @@
                 "darkMode": true,
                 "generationMethod": "fruit-salad",
                 "paletteColors": [
-                    "#5ed4fc",
-                    "#88d0ec",
-                    "#b6c4ff",
-                    "#ffb4ab"
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/cyberpunk.png",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "rainbow",
+                "paletteColors": [
+                    "#97cbff",
+                    "#b9c8da",
+                    "#d3bfe6",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/cachyos-wallpapers/Metal.png",
                 "useWallpaperColors": true
             },
             {
@@ -828,12 +863,320 @@
                 "darkMode": true,
                 "generationMethod": "fruit-salad",
                 "paletteColors": [
-                    "#8cceff",
-                    "#95cdf8",
-                    "#c8bfff",
+                    "#8aceff",
+                    "#95cdf7",
+                    "#c7bfff",
                     "#ffb4ab"
                 ],
-                "path": "/home/milayamakryxa/Pictures/wallpapers/Next/contents/images_dark/1440x2960.png",
+                "path": "/home/milayamakryxa/Pictures/wallpapers/Next/contents/images_dark/7680x2160.png",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#50d7eb",
+                    "#b0cad0",
+                    "#bac5e9",
+                    "#feb3aa"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/Halo_Compain_Evolved.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#67a8e4",
+                    "#5c5dd6",
+                    "#9766cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/Halo_Infinite.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "fruit-salad",
+                "paletteColors": [
+                    "#9bcaff",
+                    "#9ecafc",
+                    "#d2bcfd",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/1773604049_new_gfujkkuoolljnh.png",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "fruit-salad",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/bb600e93e3c1be31924137e78e706074.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#9067e4",
+                    "#c15cd6",
+                    "#d161ad",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/0ffeabbe34a4cb4d854fdca40d505aed.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/cyberpunk-edgerunners-2024-4k-df-3440x1440.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#678ee4",
+                    "#d65c80",
+                    "#ac66cc",
+                    "#a93a5b"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/1232131231111.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "dysfunctional",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/c29889b6372c098b5edd58c91d1ce4e0.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "dysfunctional",
+                "paletteColors": [
+                    "#67afe4",
+                    "#535cdf",
+                    "#8f53df",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/finding-the-missing-cat-2s-3440x1440.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#63ade9",
+                    "#eb9070",
+                    "#914de5",
+                    "#eb9070"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/Vancouver-port-ship-city-dusk-houses-lights-Canada_2880x1800.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "GitHub Dark",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#58a6ff",
+                    "#bc8cff",
+                    "#bc8cff",
+                    "#f85149"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/d04351c91fb9b84cb55bf8a291aa0b3d.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6793e4",
+                    "#6d5cd6",
+                    "#a866cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/191ad64a1dcc3cb4f170626da026eeaa.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#6793e4",
+                    "#6e5cd6",
+                    "#a866cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/42bc9fe28835556d73db1ee17fb30859.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#64a6e8",
+                    "#4e4ee4",
+                    "#994ee4",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/621fc90d7a141c56d462ae0620151698.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6796e4",
+                    "#6b5cd6",
+                    "#a666cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/6cf8bb6de8252e7e7e0633093d040f14.jpeg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#52a8fa",
+                    "#3939f9",
+                    "#9639f9",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/d88d184c09f7cb48dd01341d44d854f6.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6583e6",
+                    "#774fe3",
+                    "#c14fe3",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/fbdb1561d9eca9602b0a0f8e057fa1ec.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "dysfunctional",
+                "paletteColors": [
+                    "#f0675b",
+                    "#eea744",
+                    "#e0ee44",
+                    "#ec3a2a"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/mass-effect-legendary-edition-1920-x-1080-wallpaper-cnxeeuwh6jkapfce.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6790e4",
+                    "#705cd6",
+                    "#ab66cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/steamuserimages-a.akamaihd.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#6799e4",
+                    "#685cd6",
+                    "#a366cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/thumb_1654795683_823633.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#6774e4",
+                    "#996dda",
+                    "#c876d1",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/V8Uq1Fh.jpeg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Tokyo Night",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#6795e4",
+                    "#6c5cd6",
+                    "#a766cc",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/wallhaven-jxgwvp.png",
                 "useWallpaperColors": true
             }
         ],
@@ -866,7 +1209,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "recursive",
+        "viewMode": "single",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
