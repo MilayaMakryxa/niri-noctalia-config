@@ -9,7 +9,6 @@ binds {
     Mod+Shift+ESCAPE                     { show-hotkey-overlay; }
 
     // ─── Applications ───
-    // Mod+Return                          hotkey-overlay-title="Open Terminal: Alacritty" { spawn "alacritty"; }
     Mod+Return                          hotkey-overlay-title="Open Terminal: Kitty " { spawn "kitty"; }
     Mod+CTRL+Return                     hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
     Mod+B                               hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
@@ -17,9 +16,7 @@ binds {
     Mod+Shift+Q                         hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
     // Please choose your own file manager.
-    // Mod+E                               hotkey-overlay-title="File Manager: Nautilus" { spawn "nautilus"; }
     Mod+E                               hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
-    // Mod+Y                               hotkey-overlay-title="File Manager: Yazi" { spawn "alacritty" "-e" "yazi"; }
     Mod+Y                               hotkey-overlay-title="File Manager: Yazi" { spawn "kitty" "-e" "yazi"; }
 
     // ─── Media Controls ───
@@ -70,8 +67,6 @@ binds {
     // Focus h j k l
     Mod+Shift+h                      { focus-monitor-left; }
     Mod+Shift+l                     { focus-monitor-right; }
-    // Mod+Shift+k                        { focus-monitor-up; }
-    // Mod+Shift+j                      { focus-monitor-down; }
 
     Mod+Shift+CTRL+Left                 { move-column-to-monitor-left; }
     Mod+Shift+CTRL+Right                { move-column-to-monitor-right; }
@@ -81,8 +76,6 @@ binds {
     // Move h j k l
     Mod+Shift+CTRL+h                 { move-column-to-monitor-left; }
     Mod+Shift+CTRL+l                { move-column-to-monitor-right; }
-    // Mod+Shift+CTRL+k                   { move-column-to-monitor-up; }
-    // Mod+Shift+CTRL+j                 { move-column-to-monitor-down; }
 
     // ─── Workspace Switching ───
     Mod+WheelScrollDown                 cooldown-ms=150 { focus-workspace-down; }
@@ -126,7 +119,6 @@ binds {
     Mod+Shift+CTRL+j                    { move-column-to-workspace-down; }
 
     // ─── Layout Controls ───
-    // Mod+CTRL+F                          { expand-column-to-available-width; }
     Mod+C                               { center-column; }
     Mod+CTRL+C                          { center-visible-columns; }
     Mod+Minus                           { set-column-width "-10%"; }

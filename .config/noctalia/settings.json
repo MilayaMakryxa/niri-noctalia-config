@@ -777,6 +777,10 @@
             {
                 "enabled": true,
                 "id": "kitty"
+            },
+            {
+                "enabled": true,
+                "id": "zed"
             }
         ],
         "enableUserTheming": true
