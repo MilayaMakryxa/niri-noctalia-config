@@ -7,5 +7,5 @@ output "DP-1" {
     mode "1920x1080@239.964005" // Set resolution and refresh rate
 }
 output "DP-2" {
-    mode "1920x1080@239.964005" // Set resolution and refresh rate
+    mode "3440x1440@180.000" // Set resolution and refresh rate
 }

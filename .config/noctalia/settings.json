@@ -27,14 +27,15 @@
             "org.telegram.desktop",
             "obsidian",
             "org.gnome.Nautilus",
-            "steam"
+            "steam",
+            "AmneziaVPN"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
         "showCategories": true,
         "showIconBackground": true,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "kitty -e",
         "viewMode": "list"
     },
     "audio": {
@@ -343,7 +344,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "vibrant",
+        "generationMethod": "monochrome",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "DP-1",
@@ -572,7 +573,7 @@
         "weatherTaliaMascotAlways": false
     },
     "network": {
-        "bluetoothAutoConnect": false,
+        "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "bluetoothRssiPollIntervalMs": 60000,
@@ -604,7 +605,7 @@
         "enableMarkdown": false,
         "enableMediaToast": false,
         "enabled": true,
-        "location": "top_right",
+        "location": "bottom_right",
         "lowUrgencyDuration": 3,
         "monitors": [
         ],
@@ -881,10 +882,10 @@
                 "darkMode": true,
                 "generationMethod": "tonal-spot",
                 "paletteColors": [
-                    "#50d7eb",
-                    "#b0cad0",
-                    "#bac5e9",
-                    "#feb3aa"
+                    "#50d8ec",
+                    "#b1cbd0",
+                    "#bbc6ea",
+                    "#ffb4ab"
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/Halo_Compain_Evolved.jpg",
                 "useWallpaperColors": true
@@ -1073,17 +1074,17 @@
             },
             {
                 "appearance": "dark",
-                "colorScheme": "Tokyo Night",
+                "colorScheme": "Cyberpunk",
                 "darkMode": true,
-                "generationMethod": "faithful",
+                "generationMethod": "vibrant",
                 "paletteColors": [
-                    "#6796e4",
-                    "#6b5cd6",
-                    "#a666cc",
-                    "#fd4663"
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/6cf8bb6de8252e7e7e0633093d040f14.jpeg",
-                "useWallpaperColors": true
+                "useWallpaperColors": false
             },
             {
                 "appearance": "dark",
@@ -1182,6 +1183,160 @@
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/wallhaven-jxgwvp.png",
                 "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#fefdfc",
+                    "#c6c4c4",
+                    "#dfe1e0",
+                    "#feb2a9"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_66750_otrjad_noble_team_sleva_na_pravo_starshij_praporshik.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "rainbow",
+                "paletteColors": [
+                    "#92ccff",
+                    "#b8c8da",
+                    "#d1bfe7",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_238150_mass_effect_andromeda__massovij_effekt_andromedi.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_111933_art_k_igre_mass_effect_jneci_razrushaut_zemlu.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_150236_komputernaja_igra_mass_effect_kosmicheskij_korabl_normandy.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "faithful",
+                "paletteColors": [
+                    "#89aaea",
+                    "#9a8ae9",
+                    "#c98ae9",
+                    "#fd4663"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_160416_cortana__kortana__vimishlennij_iskusstvennij_intellekt_personaj.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "content",
+                "paletteColors": [
+                    "#b1c9e6",
+                    "#bfc7d4",
+                    "#debcdd",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_325383_emilea239_juna266_personaji_serii_videoigr_halo__halo.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_325385_voin_s_orujiem_personaj_iz_videoigri_haloraech_fan.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "tonal-spot",
+                "paletteColors": [
+                    "#73d1ff",
+                    "#b5cad7",
+                    "#c8c2ea",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_331606_personaji_serii_videoigr_halo__halo_3odst_fan.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/99px_ru_wallpaper_352636_kosmicheskij_korabl_normandy_viletaet_iz_rozovoj_tumannosti.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/mass-effect-2-08-3440x1440.jpg",
+                "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Cyberpunk",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#c4a82e",
+                    "#d14358",
+                    "#00a66c",
+                    "#b32d2d"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/1302122.jpg",
+                "useWallpaperColors": false
             }
         ],
         "fillColor": "#000000",
@@ -1196,10 +1351,10 @@
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
-        "showHiddenFiles": false,
+        "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
-        "sortOrder": "name",
+        "sortOrder": "date_desc",
         "transitionDuration": 1500,
         "transitionEdgeSmoothness": 0.05,
         "transitionType": [
@@ -1213,7 +1368,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "single",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
