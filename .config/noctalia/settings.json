@@ -337,7 +337,7 @@
         "predefinedScheme": "GitHub Dark",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": true
+        "useWallpaperColors": false
     },
     "controlCenter": {
         "cards": [
@@ -872,13 +872,13 @@
                 "darkMode": true,
                 "generationMethod": "tonal-spot",
                 "paletteColors": [
-                    "#50d8ec",
-                    "#b1cbd0",
-                    "#bbc6ea",
-                    "#ffb4ab"
+                    "#58a6ff",
+                    "#bc8cff",
+                    "#bc8cff",
+                    "#f85149"
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/Halo_Compain_Evolved.jpg",
-                "useWallpaperColors": true
+                "useWallpaperColors": false
             },
             {
                 "appearance": "dark",
@@ -1340,7 +1340,7 @@
         "overviewTint": 0.6,
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
-        "setWallpaperOnAllMonitors": true,
+        "setWallpaperOnAllMonitors": false,
         "showHiddenFiles": true,
         "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
@@ -1358,7 +1358,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "recursive",
+        "viewMode": "browse",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
