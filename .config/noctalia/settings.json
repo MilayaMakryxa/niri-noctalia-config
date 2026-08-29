@@ -18,17 +18,6 @@
         "ignoreMouseInput": false,
         "overviewLayer": false,
         "pinnedApps": [
-            "org.manjaro.pamac.manager",
-            "dev.zed.Zed",
-            "firefox",
-            "bitwarden",
-            "vesktop",
-            "v2rayn",
-            "org.telegram.desktop",
-            "obsidian",
-            "org.gnome.Nautilus",
-            "steam",
-            "AmneziaVPN"
         ],
         "position": "center",
         "screenshotAnnotationTool": "",
@@ -93,6 +82,16 @@
         "widgetSpacing": 6,
         "widgets": {
             "center": [
+                {
+                    "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
+                    "customIconPath": "",
+                    "enableColorization": false,
+                    "icon": "rocket",
+                    "iconColor": "none",
+                    "id": "Launcher",
+                    "useDistroLogo": true
+                },
                 {
                     "colorizeIcons": false,
                     "hideMode": "hidden",
@@ -330,14 +329,14 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "tonal-spot",
+        "generationMethod": "monochrome",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "DP-1",
-        "predefinedScheme": "GitHub Dark",
+        "predefinedScheme": "Neon Surf",
         "schedulingMode": "off",
         "syncGsettings": true,
-        "useWallpaperColors": false
+        "useWallpaperColors": true
     },
     "controlCenter": {
         "cards": [
@@ -454,16 +453,16 @@
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "allowPasswordWithFprintd": false,
-        "animationDisabled": false,
+        "animationDisabled": true,
         "animationSpeed": 1,
         "autoStartAuth": false,
-        "avatarImage": "/home/milayamakryxa/.face",
+        "avatarImage": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/if2l6hhd7kn21.png",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
         "clockStyle": "digital",
         "compactLockScreen": false,
-        "dimmerOpacity": 0,
-        "enableBlurBehind": true,
+        "dimmerOpacity": 0.2,
+        "enableBlurBehind": false,
         "enableLockScreenCountdown": true,
         "enableLockScreenMediaControls": true,
         "enableShadows": true,
@@ -505,7 +504,7 @@
         "radiusRatio": 1,
         "reverseScroll": false,
         "scaleRatio": 1,
-        "screenRadiusRatio": 0.8,
+        "screenRadiusRatio": 1,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
@@ -559,7 +558,7 @@
         "weatherTaliaMascotAlways": false
     },
     "network": {
-        "bluetoothAutoConnect": true,
+        "bluetoothAutoConnect": false,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
         "bluetoothRssiPollIntervalMs": 60000,
@@ -624,7 +623,8 @@
         ],
         "location": "top_right",
         "monitors": [
-            "DP-2"
+            "DP-2",
+            "DP-1"
         ],
         "overlayLayer": true
     },
@@ -634,7 +634,7 @@
     },
     "sessionMenu": {
         "countdownDuration": 10000,
-        "enableCountdown": false,
+        "enableCountdown": true,
         "largeButtonsLayout": "single-row",
         "largeButtonsStyle": true,
         "position": "bottom_center",
@@ -642,49 +642,49 @@
             {
                 "action": "lock",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "1"
             },
             {
                 "action": "suspend",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "2"
             },
             {
                 "action": "hibernate",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "3"
             },
             {
                 "action": "reboot",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "4"
             },
             {
                 "action": "logout",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "5"
             },
             {
                 "action": "shutdown",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "6"
             },
             {
                 "action": "rebootToUefi",
                 "command": "",
-                "countdownEnabled": false,
+                "countdownEnabled": true,
                 "enabled": true,
                 "keybind": "7"
             },
@@ -782,7 +782,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "MesloLGL Nerd Font Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 1,
+        "panelBackgroundOpacity": 0.9500000000000001,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",
@@ -1327,6 +1327,20 @@
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/1302122.jpg",
                 "useWallpaperColors": false
+            },
+            {
+                "appearance": "dark",
+                "colorScheme": "Neon Surf",
+                "darkMode": true,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/1920x1080/42bc9fe28835556d73db1ee17fb30859.jpg",
+                "useWallpaperColors": true
             }
         ],
         "fillColor": "#000000",
@@ -1342,7 +1356,7 @@
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": false,
         "showHiddenFiles": true,
-        "skipStartupTransition": false,
+        "skipStartupTransition": true,
         "solidColor": "#1a1a2e",
         "sortOrder": "date_desc",
         "transitionDuration": 1500,
@@ -1358,7 +1372,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "browse",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
