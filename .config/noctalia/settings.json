@@ -42,20 +42,20 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
-        "barType": "simple",
+        "backgroundOpacity": 1,
+        "barType": "floating",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
-        "density": "comfortable",
+        "density": "default",
         "displayMode": "always_visible",
         "enableExclusionZoneInset": true,
         "fontScale": 1,
         "frameRadius": 12,
         "frameThickness": 8,
         "hideOnOverview": false,
-        "marginHorizontal": 4,
-        "marginVertical": 4,
+        "marginHorizontal": 200,
+        "marginVertical": 8,
         "middleClickAction": "none",
         "middleClickCommand": "",
         "middleClickFollowMouse": false,
@@ -75,23 +75,13 @@
                 "name": "DP-1"
             }
         ],
-        "showCapsule": true,
+        "showCapsule": false,
         "showOnWorkspaceSwitch": true,
         "showOutline": false,
-        "useSeparateOpacity": false,
+        "useSeparateOpacity": true,
         "widgetSpacing": 6,
         "widgets": {
             "center": [
-                {
-                    "colorizeSystemIcon": "none",
-                    "colorizeSystemText": "none",
-                    "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": true
-                },
                 {
                     "colorizeIcons": false,
                     "hideMode": "hidden",
@@ -133,7 +123,7 @@
             ],
             "left": [
                 {
-                    "characterCount": 2,
+                    "characterCount": 10,
                     "colorizeIcons": false,
                     "emptyColor": "secondary",
                     "enableScrollWheel": true,
@@ -149,7 +139,7 @@
                     "pillSize": 0.6,
                     "showApplications": false,
                     "showApplicationsHover": false,
-                    "showBadge": true,
+                    "showBadge": false,
                     "showLabelsOnlyWhenOccupied": true,
                     "unfocusedIconsOpacity": 1
                 },
@@ -402,12 +392,17 @@
         }
     },
     "desktopWidgets": {
-        "enabled": true,
-        "gridSnap": false,
-        "gridSnapScale": false,
+        "enabled": false,
+        "gridSnap": true,
+        "gridSnapScale": true,
         "monitorWidgets": [
             {
                 "name": "eDP-1",
+                "widgets": [
+                ]
+            },
+            {
+                "name": "DP-1",
                 "widgets": [
                 ]
             }
@@ -418,42 +413,52 @@
         "animationSpeed": 1,
         "backgroundOpacity": 1,
         "colorizeIcons": false,
-        "deadOpacity": 0.6,
-        "displayMode": "auto_hide",
+        "deadOpacity": 1,
+        "displayMode": "exclusive",
         "dockType": "floating",
         "enabled": true,
-        "floatingRatio": 1,
-        "groupApps": false,
+        "floatingRatio": 0.4,
+        "groupApps": true,
         "groupClickAction": "cycle",
         "groupContextMenuMode": "extended",
         "groupIndicatorStyle": "dots",
-        "inactiveIndicators": false,
+        "inactiveIndicators": true,
         "indicatorColor": "primary",
         "indicatorOpacity": 0.6,
         "indicatorThickness": 6,
         "launcherIcon": "",
         "launcherIconColor": "none",
-        "launcherPosition": "end",
-        "launcherUseDistroLogo": false,
+        "launcherPosition": "start",
+        "launcherUseDistroLogo": true,
         "monitors": [
             "eDP-1",
             "DP-1",
             "DP-2"
         ],
-        "onlySameOutput": true,
+        "onlySameOutput": false,
         "pinnedApps": [
+            "kitty",
+            "thunar",
+            "firefox",
+            "discord",
+            "vesktop",
+            "org.telegram.desktop",
+            "AmneziaVPN",
+            "steam",
+            "bitwarden",
+            "dev.zed.Zed"
         ],
-        "pinnedStatic": false,
+        "pinnedStatic": true,
         "position": "bottom",
-        "showDockIndicator": true,
-        "showLauncherIcon": false,
+        "showDockIndicator": false,
+        "showLauncherIcon": true,
         "sitOnFrame": false,
         "size": 1
     },
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "allowPasswordWithFprintd": false,
-        "animationDisabled": true,
+        "animationDisabled": false,
         "animationSpeed": 1,
         "autoStartAuth": false,
         "avatarImage": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/if2l6hhd7kn21.png",
@@ -467,7 +472,7 @@
         "enableLockScreenMediaControls": true,
         "enableShadows": true,
         "forceBlackScreenCorners": true,
-        "iRadiusRatio": 1,
+        "iRadiusRatio": 0.5,
         "keybinds": {
             "keyDown": [
                 "Down"
@@ -518,7 +523,7 @@
     "hooks": {
         "colorGeneration": "",
         "darkModeChange": "",
-        "enabled": false,
+        "enabled": true,
         "performanceModeDisabled": "",
         "performanceModeEnabled": "",
         "screenLock": "",
@@ -705,7 +710,7 @@
         "batteryWarningThreshold": 20,
         "cpuCriticalThreshold": 90,
         "cpuWarningThreshold": 80,
-        "criticalColor": "",
+        "criticalColor": "#ffb4ab",
         "diskAvailCriticalThreshold": 10,
         "diskAvailWarningThreshold": 20,
         "diskCriticalThreshold": 90,
@@ -721,7 +726,7 @@
         "tempCriticalThreshold": 90,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
-        "warningColor": ""
+        "warningColor": "#e2e2e2"
     },
     "templates": {
         "activeTemplates": [
@@ -740,10 +745,6 @@
             {
                 "enabled": true,
                 "id": "qt"
-            },
-            {
-                "enabled": true,
-                "id": "steam"
             },
             {
                 "enabled": true,
@@ -767,11 +768,15 @@
             },
             {
                 "enabled": true,
+                "id": "btop"
+            },
+            {
+                "enabled": true,
                 "id": "zed"
             },
             {
                 "enabled": true,
-                "id": "btop"
+                "id": "pywalfox"
             }
         ],
         "enableUserTheming": true
@@ -782,10 +787,10 @@
         "fontDefaultScale": 1,
         "fontFixed": "MesloLGL Nerd Font Mono",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.9500000000000001,
+        "panelBackgroundOpacity": 0.93,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
-        "settingsPanelMode": "attached",
+        "settingsPanelMode": "window",
         "settingsPanelSideBarCardStyle": false,
         "tooltipsEnabled": true,
         "translucentWidgets": false
@@ -1302,17 +1307,17 @@
             },
             {
                 "appearance": "dark",
-                "colorScheme": "Cyberpunk",
+                "colorScheme": "Noctalia (default)",
                 "darkMode": true,
                 "generationMethod": "monochrome",
                 "paletteColors": [
-                    "#c4a82e",
-                    "#d14358",
-                    "#00a66c",
-                    "#b32d2d"
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/mass-effect-2-08-3440x1440.jpg",
-                "useWallpaperColors": false
+                "useWallpaperColors": true
             },
             {
                 "appearance": "dark",
@@ -1341,6 +1346,34 @@
                 ],
                 "path": "/home/milayamakryxa/Pictures/wallpapers/1920x1080/42bc9fe28835556d73db1ee17fb30859.jpg",
                 "useWallpaperColors": true
+            },
+            {
+                "appearance": "light",
+                "colorScheme": "Neon Surf",
+                "darkMode": false,
+                "generationMethod": "vibrant",
+                "paletteColors": [
+                    "#c32722",
+                    "#a36a29",
+                    "#83862d",
+                    "#eba973"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/wallpaperswide.com-halo-wars-2-atriox-battlefield-wallpaper-3440x1440.jpg",
+                "useWallpaperColors": true
+            },
+            {
+                "appearance": "light",
+                "colorScheme": "Neon Surf",
+                "darkMode": false,
+                "generationMethod": "monochrome",
+                "paletteColors": [
+                    "#ffffff",
+                    "#c6c6c6",
+                    "#e2e2e2",
+                    "#ffb4ab"
+                ],
+                "path": "/home/milayamakryxa/Pictures/wallpapers/3440x1440/v17oqj6fhie71.jpg",
+                "useWallpaperColors": true
             }
         ],
         "fillColor": "#000000",
@@ -1349,12 +1382,12 @@
         "linkLightAndDarkWallpapers": false,
         "monitorDirectories": [
         ],
-        "overviewBlur": 0.4,
+        "overviewBlur": 0,
         "overviewEnabled": false,
-        "overviewTint": 0.6,
+        "overviewTint": 0,
         "panelPosition": "follow_bar",
         "randomIntervalSec": 300,
-        "setWallpaperOnAllMonitors": false,
+        "setWallpaperOnAllMonitors": true,
         "showHiddenFiles": true,
         "skipStartupTransition": true,
         "solidColor": "#1a1a2e",
@@ -1372,7 +1405,7 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "recursive",
+        "viewMode": "browse",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",

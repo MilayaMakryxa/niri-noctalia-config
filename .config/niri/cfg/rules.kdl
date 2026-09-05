@@ -1,7 +1,7 @@
     window-rule {
         geometry-corner-radius 20 // Set every window radius to 20
         clip-to-geometry true
-	open-maximized false
+	open-maximized true
  	draw-border-with-background false
     }
 
@@ -25,5 +25,6 @@
 
     window-rule {
         match app-id="kitty"
+	open-maximized true
 	opacity 0.9
     }
